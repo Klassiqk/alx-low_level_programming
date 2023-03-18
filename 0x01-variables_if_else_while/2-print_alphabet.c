@@ -3,17 +3,17 @@
 
 /**
  * main - A program that prints alphabet in lowercse
- *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int lowerCase = 'a';
-	while (lowerCase <= 'z')
+int lowerCase = 'a';
+while (lowerCase <= 'z')
 {
-        putchar(lowerCase);
-        lowerCase += 1;
+putchar(lowerCase);
+lowerCase += 1;
 }
-        putchar('\n');
-        return (0);
-}
+putchar('\n');
+return (0);
+
+	}
