@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 /**
  * main - A program that will assign a random number to the variable
  * Return: Always 0
