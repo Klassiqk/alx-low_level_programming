@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
  * main - A program that prints alphabet in lowercse
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int lowerCase = 'a';
