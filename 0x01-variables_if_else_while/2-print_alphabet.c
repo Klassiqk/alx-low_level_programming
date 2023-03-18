@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - Entry point
+ * main - A program that prints alphabet in lowercse
  *
  * Return: Always 0 (success)
  */
