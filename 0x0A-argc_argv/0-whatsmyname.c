@@ -2,12 +2,12 @@
 
 /**
  * main - function to print it's name
- * @argc: argc parameter
- * @argv: array of command listed
+ * @argv: array of arguments
  * Return: 0 for success
  */
 
-int main(int argc. char *argv[])
+int main(int argc char *argv[])
 {
 	printf("%s\n", *argv);
+	return (0);
 }
