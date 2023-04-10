@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +7,7 @@
  * Return: 0 for success
  */
 
-int main(int argc char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
