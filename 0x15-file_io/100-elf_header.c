@@ -1,5 +1,3 @@
-100-elf_header.c
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -179,7 +177,7 @@ void print_osabi(unsigned char *e_ident)
 
 /**
  * print_abi - Prints the ABI version of an ELF header.
- * @e_ident: A pointer to an array containing the ELF ABI version.
+ * @e_ident: Pointer to an array containing the ELF ABI version.
  */
 void print_abi(unsigned char *e_ident)
 {
@@ -188,8 +186,8 @@ void print_abi(unsigned char *e_ident)
 }
 
 /**
- * print_type - Prints the type of an ELF header.
- * @e_type: The ELF type.
+ * print_type - Prints the type of an ELF header
+ * @e_type: The ELF type
  * @e_ident: A pointer to an array containing the ELF class.
  */
 void print_type(unsigned int e_type, unsigned char *e_ident)
@@ -222,9 +220,9 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 }
 
 /**
- * print_entry - Prints the entry point of an ELF header.
- * @e_entry: The address of the ELF entry point.
- * @e_ident: A pointer to an array containing the ELF class.
+ * print_entry - Prints the entry point of an ELF header
+ * @e_entry: The address of the ELF entry point
+ * @e_ident: Pointer to an array containing the ELF class
  */
 void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
